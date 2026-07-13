@@ -1,0 +1,13 @@
+{
+    "agent": "Farm Manager",
+    "knowledge_base": "poultry_farm_kb_v.txt",
+    "knowledge_base_version": "V1",
+    "embedding_model": "BAAI/bge-base-en-v1.5",
+    "embedding_dimension": 768,
+    "vector_database": "FAISS",
+    "index_type": "IndexFlatIP",
+    "normalize_embeddings": true,
+    "chunking_strategy": "Category-Based",
+    "number_of_chunks": 10,
+    "top_k": 3
+}
