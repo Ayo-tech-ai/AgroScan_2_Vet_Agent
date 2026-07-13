@@ -1,0 +1,6 @@
+streamlit>=1.38
+google-adk==2.4.0
+a2a-sdk[http-server]==0.3.26
+litellm
+sentence-transformers
+faiss-cpu
